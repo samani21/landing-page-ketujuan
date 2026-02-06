@@ -24,8 +24,8 @@ const Navigation = () => {
                         <a href="#harga" className="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Harga</a>
                         <a href="#tentang" className="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Tentang</a>
                         <div className="h-6 w-px bg-slate-200"></div>
-                        <button className="text-sm font-bold text-slate-800 hover:text-emerald-700" onClick={() => route.replace('https://fe-ketujuan.vercel.app/login')}>Masuk</button>
-                        <button className="bg-emerald-600 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-emerald-700 shadow-md shadow-emerald-100 transition-all active:scale-95" onClick={() => route.replace('https://fe-ketujuan.vercel.app/register')}>
+                        <button className="text-sm font-bold text-slate-800 hover:text-emerald-700" onClick={() => route.replace('https://fe-ketujuan.vercel.app/auth/login')}>Masuk</button>
+                        <button className="bg-emerald-600 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-emerald-700 shadow-md shadow-emerald-100 transition-all active:scale-95" onClick={() => route.replace('https://fe-ketujuan.vercel.app/auth/register')}>
                             Daftar Sekarang
                         </button>
                     </div>

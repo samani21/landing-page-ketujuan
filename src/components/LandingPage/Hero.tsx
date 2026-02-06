@@ -23,7 +23,7 @@ const Hero = () => {
                     Katujuan membantu UMKM mengelola pesanan, katalog, dan laporan penjualan dalam satu platform SaaS yang ringan dan cepat. Fokus jualan, biar kami yang urus sistemnya.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <button onClick={() => route.replace('https://fe-ketujuan.vercel.app/login')} className="w-full sm:w-auto bg-emerald-600 text-white px-10 py-5 rounded-2xl text-lg font-bold hover:bg-emerald-700 shadow-xl shadow-emerald-200 flex items-center justify-center gap-2 transition-all hover:-translate-y-1">
+                    <button onClick={() => route.replace('https://fe-ketujuan.vercel.app/auth/login')} className="w-full sm:w-auto bg-emerald-600 text-white px-10 py-5 rounded-2xl text-lg font-bold hover:bg-emerald-700 shadow-xl shadow-emerald-200 flex items-center justify-center gap-2 transition-all hover:-translate-y-1">
                         Mulai Gratis <ArrowRight size={20} />
                     </button>
                     <button className="w-full sm:w-auto bg-white text-slate-800 px-10 py-5 rounded-2xl text-lg font-bold border border-slate-200 hover:bg-slate-50 transition-all flex items-center justify-center gap-2">
