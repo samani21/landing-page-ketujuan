@@ -17,7 +17,7 @@ const Navigation = () => {
                         </div> */}
                         {/* <span className="text-2xl font-black text-[var(--primary-color)] tracking-tight tracking-tighter">Katujuan<span className="text-[var(--secondary-color)]">.net</span></span> */}
 
-                        <img src={'/ketujuan.png'} className='w-40'/>
+                        <img src={'/ketujuan.png'} className='w-40' />
                     </div>
 
                     {/* Desktop Nav */}
@@ -26,7 +26,7 @@ const Navigation = () => {
                         <a href="#harga" className="text-sm font-semibold text-slate-600 hover:text-[var(--primary-color)] transition-colors">Harga</a>
                         <a href="#tentang" className="text-sm font-semibold text-slate-600 hover:text-[var(--primary-color)] transition-colors">Tentang</a>
                         <div className="h-6 w-px bg-slate-200"></div>
-                        <button className="text-sm font-bold text-slate-800 hover:text-emerald-700" onClick={() => route.replace('https://fe-ketujuan.vercel.app/auth/login')}>Masuk</button>
+                        <button className="text-sm font-bold text-slate-800 hover:text-[var(--primary-color)]" onClick={() => route.replace('https://fe-ketujuan.vercel.app/auth/login')}>Masuk</button>
                         <button className="bg-[var(--primary-color)] text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-[#3D68A8] shadow-md shadow-[#2C5294] transition-all active:scale-95" onClick={() => route.replace('https://fe-ketujuan.vercel.app/auth/register')}>
                             Daftar Sekarang
                         </button>
@@ -47,7 +47,7 @@ const Navigation = () => {
                     <a href="#fitur" className="block text-lg font-bold text-slate-800">Fitur</a>
                     <a href="#harga" className="block text-lg font-bold text-slate-800">Harga</a>
                     <button className="w-full text-center py-3 font-bold text-slate-800 border border-slate-200 rounded-xl">Masuk</button>
-                    <button className="w-full bg-emerald-600 text-white py-3 font-bold rounded-xl">Mulai Gratis</button>
+                    <button className="w-full bg-[var(--primary-color)] text-white py-3 font-bold rounded-xl">Mulai Gratis</button>
                 </div>
             )}
         </nav>
