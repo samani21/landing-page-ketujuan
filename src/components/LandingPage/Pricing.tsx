@@ -39,9 +39,9 @@ const Pricing = () => {
 
                 <div className="grid md:grid-cols-3 gap-8">
                     {pricing.map((plan, idx) => (
-                        <div key={idx} className={`relative p-10 rounded-[3rem] border ${plan.popular ? 'border-emerald-600 shadow-2xl shadow-emerald-100' : 'border-slate-100 shadow-sm'} flex flex-col`}>
+                        <div key={idx} className={`relative p-10 rounded-[3rem] border ${plan.popular ? 'border-[var(--primary-color)] shadow-2xl shadow-blue-200' : 'border-slate-100 shadow-sm'} flex flex-col`}>
                             {plan.popular && (
-                                <div className="absolute -top-5 left-1/2 -translate-x-1/2 bg-emerald-600 text-white px-6 py-2 rounded-full text-xs font-black uppercase tracking-widest">
+                                <div className="absolute -top-5 left-1/2 -translate-x-1/2 bg-[var(--primary-color)] text-white px-6 py-2 rounded-full text-xs font-black uppercase tracking-widest">
                                     Paling Populer
                                 </div>
                             )}
@@ -56,11 +56,11 @@ const Pricing = () => {
                             <ul className="space-y-4 mb-10 flex-grow">
                                 {plan.features.map((f, i) => (
                                     <li key={i} className="flex items-center gap-3 text-sm font-medium text-slate-600">
-                                        <CheckCircle2 size={18} className="text-emerald-600 flex-shrink-0" /> {f}
+                                        <CheckCircle2 size={18} className="text-[var(--primary-color)] flex-shrink-0" /> {f}
                                     </li>
                                 ))}
                             </ul>
-                            <button className={`w-full py-5 rounded-2xl font-bold transition-all active:scale-95 ${plan.popular ? 'bg-emerald-600 text-white hover:bg-emerald-700 shadow-lg shadow-emerald-200' : 'bg-slate-100 text-slate-800 hover:bg-slate-200'}`}>
+                            <button className={`w-full py-5 rounded-2xl font-bold transition-all active:scale-95 ${plan.popular ? 'bg-[var(--primary-color)] text-white hover:bg-[var(--secondary-color)] shadow-lg shadow-blue-200' : 'bg-slate-100 text-slate-800 hover:bg-slate-200'}`}>
                                 {plan.cta}
                             </button>
                         </div>
